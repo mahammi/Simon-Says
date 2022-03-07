@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-color: #3f4c5a;
+}
+footer{
+  font-family: 'Fredoka', sans-serif;
+  color: white;
+  margin: 2%;
+}
+#game-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3rem;
+  margin-top: 3% 0;
+  color: #ffffff;
+}
+
+#rules{
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+
+  color: #ffffff;
+}
+#level-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2rem;
+  margin:  3%;
+  color: #ffffff;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(236, 120, 120);
+}
+
+.green {
+  background-color: rgb(113, 228, 113);
+}
+
+.blue {
+  background-color: rgb(122, 122, 236);
+}
+
+.yellow {
+  background-color: rgb(247, 247, 123);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
